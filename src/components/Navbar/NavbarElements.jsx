@@ -1,9 +1,14 @@
 import styled from "styled-components";
 import { Link as LinkS } from "react-scroll";
 export const Nav = styled.nav`
-  background: #000;
+  background: ${({ scrollNav }) => (scrollNav ? "rgba(17, 25, 40)" : "transparent")};
+  /* background-color: rgba(17, 25, 40, 0.75); */
+  border-radius: 0px 0px 12px 12px;
+
+  transition: 0.8s all ease;
+
   height: 80px;
-  /* margin-top: -80px; */
+  margin-top: -110px;
   display: flex;
   justify-content: center;
   font-size: 1rem;
@@ -43,9 +48,10 @@ export const Hamburger = styled.div`
   @media screen and (max-width: 768px) {
     /* align-self: center; */
     display: block;
-    position: absolute;
+    align-self: center;
+    /* position: absolute;
     top: 0;
-    right: 0;
+    right: 0; */
     trandform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
@@ -75,7 +81,7 @@ export const NavLink = styled(LinkS)`
   height: 100%;
   cursor: pointer;
 
-  &.active {
-    border-bottom: 3px solid #01bf71;
+  &:active {
+    border-bottom: 2px solid #fb5607;
   }
 `;
