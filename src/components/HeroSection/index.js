@@ -22,7 +22,7 @@ const HeroSection = () => {
     setHover(!hover);
   };
   return (
-    <HeroContainer id="home">
+    <HeroContainer id="Home">
       <HeroBg>{/* <VideoBg autoPlay loop muted src={Video} type="video/mp4" /> */}</HeroBg>
       <HeroContent>
         <HeroH1 src={Type} type="image/svg" />
@@ -33,7 +33,7 @@ const HeroSection = () => {
           dolorum aliquam reprehenderit sunt, quos vel facilis cupiditate voluptas beatae nesciunt,
         </HeroP>
         <HeroBtnWrapper>
-          <Button to="house-selection" onMouseEnter={onHover} onMouseLeave={onHover}>
+          <Button to="House-selection" onMouseEnter={onHover} onMouseLeave={onHover}>
             Know your House {hover ? <ArrowDown /> : <ArrowBelow />}
           </Button>
         </HeroBtnWrapper>

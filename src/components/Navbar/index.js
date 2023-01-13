@@ -35,17 +35,17 @@ const Navbar = ({ toggle }) => {
           </Hamburger>
           <NavMenu>
             <NavItem>
-              <NavLink to="about">About</NavLink>
+              <NavLink to="Home">Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="house-selection">House Selection</NavLink>
+              <NavLink to="House-selection">House Selection</NavLink>
             </NavItem>
             <NavItem>
               <NavLink to="Houses">Houses</NavLink>
             </NavItem>
-            <NavItem>
+            {/* <NavItem>
               <NavLink to="Contact">Contact</NavLink>
-            </NavItem>
+            </NavItem> */}
           </NavMenu>
         </NavbarContainer>
       </Nav>
