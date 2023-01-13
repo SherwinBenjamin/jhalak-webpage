@@ -75,6 +75,10 @@ export const Colmn1 = styled.div`
   margin-bottom: 15px;
   padding: 0 15px;
   grid-area: colmn1;
+  justify-content: center;
+  @media screen and (max-width: 768) {
+    padding-right: -15px;
+  }
 `;
 export const Colmn2 = styled.div`
   margin-bottom: 15px;
@@ -92,6 +96,9 @@ export const Input = styled.input`
   border: 2px solid rgba(255, 255, 255, 0.2);
   color: rgba(255, 255, 255, 0.8);
   transition: all 0.5s;
+  @media screen and (max-width: 768px) {
+    width: 90vws;
+  }
 `;
 export const InputBtn = styled.div`
   margin: auto;
@@ -131,6 +138,8 @@ export const houseText = styled.p`
   font-size: 28px;
   /* text-align: center; */
   margin-bottom: 30px;
+  flex-wrap: wrap;
+  text-decoration: underline;
 
   @media screen and (max-width: 768px) {
     font-size: 16px;
@@ -146,11 +155,19 @@ export const Table = styled.div`
   margin-top: 20px;
   grid-auto-columns: 1fr 1fr;
   align-items: center;
+
   grid-template-areas: "colm1 colm2";
   @media screen and (max-width: 768px) {
     grid-template-areas: "colm1" "colm2";
+    justify-items: center;
+  }
+
+  @media screen and (max-width: 350px) {
+    grid-auto-columns: minmax(auto, auto);
+    margin-left: 20px;
   }
 `;
+
 export const Colm1 = styled.div`
   margin-bottom: 15px;
   /* padding: 0 15px; */
