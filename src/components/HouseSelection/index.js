@@ -9,10 +9,11 @@ import {
   InputRow,
   Colmn1,
   Colmn2,
-  houseText,
   Table,
   Colm1,
   Colm2,
+  NoteP,
+  Pwrapper,
   // otherBox,
   // otherText,
 } from "./SelectionElements";
@@ -82,10 +83,12 @@ const HouseSelection = ({ tableData }) => {
           </InputRow>
           <TextWrapper>
             <Subtext>Your House is: {result} </Subtext>
-            <houseText>
-              Note: This is only for Engineering and Technonlogy, the other departments will follow
-              the below distribution:
-            </houseText>
+            <Pwrapper>
+              <NoteP>
+                Note: This is only for Engineering and Technonlogy, the other departments will
+                follow the below distribution:
+              </NoteP>
+            </Pwrapper>
             <Table>
               <Colm1>Law and School of Humanities</Colm1>
               <Colm2>: Astra</Colm2>

@@ -97,7 +97,11 @@ export const Input = styled.input`
   color: rgba(255, 255, 255, 0.8);
   transition: all 0.5s;
   @media screen and (max-width: 768px) {
-    width: 90vws;
+    width: 95vw;
+    font-size: 12px;
+  }
+  @media screen and (max-width: 480px) {
+    width: 90vw;
   }
 `;
 export const InputBtn = styled.div`
@@ -129,24 +133,26 @@ export const Subtext = styled.p`
   }
 `;
 
-export const houseText = styled.p`
+export const Pwrapper = styled.div`
+  justify-content: center;
+`;
+
+export const NoteP = styled.p`
   display: flex;
   justify-content: center;
   font-weight: 100;
   text-align: center;
   color: #fff;
   font-size: 28px;
-  /* text-align: center; */
   margin-bottom: 30px;
   flex-wrap: wrap;
-  text-decoration: underline;
-
   @media screen and (max-width: 768px) {
     font-size: 16px;
   }
 
   @media screen and (max-width: 480px) {
     font-size: 12px;
+    padding: 20px;
   }
 `;
 
