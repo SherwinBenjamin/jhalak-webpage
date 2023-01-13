@@ -29,8 +29,10 @@ const HeroSection = () => {
 
         <HeroH2>Inter College Competition</HeroH2>
         <HeroP>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab delectus laboriosam minus
-          dolorum aliquam reprehenderit sunt, quos vel facilis cupiditate voluptas beatae nesciunt,
+          Jhalak is an intra college extravagant fest, organized by the Directorate of Student
+          Affairs, of SRM IST. The houses — Agni, Aakash, Prithvi, Trishul, Astra, Brahmos, Shaurya,
+          Naag — representing the different colleges of the university, stand against each other in
+          an epic display of talent and innovation!
         </HeroP>
         <HeroBtnWrapper>
           <Button to="House-selection" onMouseEnter={onHover} onMouseLeave={onHover}>

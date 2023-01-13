@@ -6,7 +6,16 @@ import HeroSection from "../components/HeroSection";
 import Navbar from "../components/Navbar";
 import Houses from "../components/Houses";
 // import { homeObjOne } from "../components/InfoSection/Data";
-import { homeObjFour, homeObjOne, homeObjThree, homeObjTwo } from "../components/Houses/Data";
+import {
+  homeObjFour,
+  homeObjOne,
+  homeObjThree,
+  homeObjTwo,
+  homeObjFive,
+  homeObjSix,
+  homeObjSeven,
+  homeObjEight,
+} from "../components/Houses/Data";
 import SectionTitle from "../components/SectionTitle";
 import { titleObjOne, titleObjTwo } from "../components/SectionTitle/Data";
 import HouseSelection from "../components/HouseSelection";
@@ -33,6 +42,10 @@ const Home = () => {
       <Houses {...homeObjTwo} />
       <Houses {...homeObjThree} />
       <Houses {...homeObjFour} />
+      <Houses {...homeObjFive} />
+      <Houses {...homeObjSix} />
+      <Houses {...homeObjSeven} />
+      <Houses {...homeObjEight} />
     </>
   );
 };
