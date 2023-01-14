@@ -15,6 +15,15 @@ export const SidebarContainer = styled.aside`
   transition: 0.3s ease-in-out;
   opacity: ${({ isOpen }) => (isOpen ? "100%" : "0%")};
   top: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
+  @media screen and (max-width: 480px) {
+    position: absolute;
+    width: 80%;
+    height: auto;
+    /* top: 0;*/
+    left: 10%;
+    right: 10%;
+    bottom: 0;
+  }
 `;
 
 export const Icon = styled.div`
