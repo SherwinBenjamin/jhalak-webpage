@@ -97,11 +97,11 @@ export const Input = styled.input`
   color: rgba(255, 255, 255, 0.8);
   transition: all 0.5s;
   @media screen and (max-width: 768px) {
-    width: 95vw;
+    width: 95%;
     font-size: 12px;
   }
   @media screen and (max-width: 480px) {
-    width: 90vw;
+    width: 90%;
   }
 `;
 export const InputBtn = styled.div`

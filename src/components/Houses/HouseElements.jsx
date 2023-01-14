@@ -66,9 +66,7 @@ export const Heading = styled.h1`
   color: #fff;
   @media screen and (max-width: 768px) {
     margin-bottom: 12px;
-  }
-  @media screen and (max-width: 480px) {
-    font-size: 65px;
+    font-size: 5rem;
   }
 `;
 
@@ -87,6 +85,10 @@ export const ContactWrapper = styled.div`
   max-width: 555px;
   height: 100%;
   padding: 30px;
+  @media screen and (max-width: 768px) {
+    grid-template-areas: "colm1" "colm2";
+    /* padding: 0; */
+  }
 `;
 
 export const Contact = styled.div`
@@ -96,6 +98,7 @@ export const Contact = styled.div`
   grid-template-areas: "colm1 colm2";
   @media screen and (max-width: 768px) {
     grid-template-areas: "colm1" "colm2";
+    padding: 0;
   }
 `;
 
