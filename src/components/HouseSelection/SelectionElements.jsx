@@ -87,7 +87,7 @@ export const Colmn2 = styled.div`
 `;
 
 export const Input = styled.input`
-  width: 400px;
+  width: 90%;
   padding: 10px;
   font-size: 18px;
   outline: none;
@@ -99,9 +99,6 @@ export const Input = styled.input`
   @media screen and (max-width: 768px) {
     width: 95%;
     font-size: 12px;
-  }
-  @media screen and (max-width: 480px) {
-    width: 90%;
   }
 `;
 export const InputBtn = styled.div`
@@ -152,7 +149,8 @@ export const NoteP = styled.p`
 
   @media screen and (max-width: 480px) {
     font-size: 12px;
-    padding: 20px;
+    /* padding: 20px; */
+    width: 80%;
   }
 `;
 
