@@ -100,6 +100,7 @@ export const Input = styled.input`
     width: 95%;
     font-size: 12px;
   }
+  overflow: hidden;
 `;
 export const InputBtn = styled.div`
   margin: auto;
@@ -152,6 +153,7 @@ export const NoteP = styled.p`
     /* padding: 20px; */
     width: 80%;
   }
+  overflow: hidden;
 `;
 
 export const Table = styled.div`
